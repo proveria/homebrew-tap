@@ -5,14 +5,14 @@ class Proveria < Formula
   on_macos do
     on_arm do
       url "https://github.com/proveria/proveria-cli/releases/download/proveria-cli-v0.1.0/proveria-aarch64-apple-darwin.tar.gz"
-      sha256 "009d2f6555831c407bb12c2f8e0fbdc52c466453457992af0ee18c3b35f494e7"
+      sha256 "b0c6dcdd7555d4c215a0d1d92a392fe6e5da269f1a5a8c4e8838644a6fa87567"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/proveria/proveria-cli/releases/download/proveria-cli-v0.1.0/proveria-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4d15505c5bf1dfe442a3db151f5519c03549a197ac05f6900472937c39e22d12"
+      sha256 "9f9b7a3804f35cdbdc9fbcb3ae569394f76dcb31325623d503acfcbaeb1548c9"
     end
   end
 
