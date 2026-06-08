@@ -22,6 +22,6 @@ class Proveria < Formula
 
   test do
     assert_match version.to_s, shell_output("#{bin}/proveria --version")
-    assert_match "Proveria CLI", shell_output("#{bin}/proveria --help")
+    assert_match "proof records", shell_output("#{bin}/proveria --help")
   end
 end
